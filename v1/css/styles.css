@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+}
+
+.fas {
+    color: white;
+    margin-right: .8em;
+}
+
+.fab{
+    color: white;
+    margin-right: .8em;
+}
+
+.fa-bandcamp {
+    margin-left: 0.8em;
+}
+
+.fab:hover {
+    color: orangered;
+    transition: 0.3s;
+}
+
+body {
+    margin: 0;
+    font-family: 'Jura', sans-serif;
+    height: 100% !important; 
+    background-image: linear-gradient( rgba(0, 0, 0, .96), rgba(0, 0, 0, 0.85) ), 
+    url("../images/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    color: #c2c2c2;
+    line-height: 2em;
+}
+
+p small {
+    color: inherit;
+    /* padding-left: 2em; */
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.75em;
+}
+
+h5 {
+    color: #9b9b9b;
+}
+
+.content {
+    margin: auto;
+    max-width: 866px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.topBar {
+    text-align: right;
+    height: 60px;
+    padding-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+#siteTitle {
+    margin-top: -.5em;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+#profilePicture {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+}
+
+#profileImage {
+    margin-right: 0.8em;
+}
+
+.albums {
+    padding-left: 4em;
+}
+
+.artistName {
+    padding-left: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.biography p {
+    font-size: 0.95em;
+    line-height: 2em;
+    font-weight: lighter;
+    color: rgb(213, 213, 213);
+}
+
+hr {
+    height: 1px;
+    color: #555;
+    background: rgb(206, 206, 206);
+    opacity: 20%;
+    font-size: 0;
+    border: 0;
+}
+
+#socials {
+    float: right;
+    margin-right: -.8em;
+}
