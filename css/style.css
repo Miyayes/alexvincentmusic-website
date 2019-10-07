@@ -9,13 +9,10 @@ mark {
 opacity: 0.8;
 }
 
-footer {
-  margin-top: 3rem;
-}
-
 #socials {
   margin: auto !important;
-  width: 430px;
+  width: 258px;
+  padding: 1.5rem;
 }
 
 #socials a {
@@ -28,6 +25,7 @@ footer {
 
 .fab {
   margin-right: 2rem;
+  margin-top: 1.5rem;
 }
 
 /* End CN */
